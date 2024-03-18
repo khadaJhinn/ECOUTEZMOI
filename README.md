@@ -13,3 +13,4 @@ Chaque jour a 8h un topic de la BDD est tiré au hasard pour qu'il devienne le t
 - Une echelle de 1 à 10 sur a quel point ca rend fou
 - L'archivage des précédents random topics
 - Classement du topic le plus détesté de la semaine
+
