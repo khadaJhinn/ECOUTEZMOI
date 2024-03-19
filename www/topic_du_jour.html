@@ -6,13 +6,62 @@
 
 <title>Topic du jour</title>
 
-<link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<header>
+    <link href="style.css" rel="stylesheet">
 
-aa
-a
+    <div class="haut">
+        <div class="haut1">
+            <img src="img/" alt="logo">
+        </div>
+        <div class="haut2">
+            <h1>Titre du site</h1>
+        </div>
+        <div class="haut3">
+            <button>sign in</button>
+            <button>sign up</button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="milieu">
+        <div class="milieu1">
+            <h2>Titre topic du jour</h2>
+        </div>
+        <div class="milieu2">
+            <div class="milieu21">
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="milieu22">
+                0
+                <input type="range" list="tick">
+                <datalist id="tick">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                    </datalist>
+                10
+            </div>  
+        </div>
+        <div class="milieu3">
+            commentaires
+            <form action="/form/submit" method="post">
+                <input class="topic" type="text" placeholder="Commentaire"></textarea>
+                <br>
+                <input type="submit" name="submitInfo" value="Submit">
+              </form>
+        </div>
+    </div>
 </body>
 
 </html>

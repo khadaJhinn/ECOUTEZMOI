@@ -1,6 +1,69 @@
 .topic { 
     height: 200px;
     width: 1000px;
+}
 
+html
+{
+    background-color: beige;
+}
 
+.haut
+{
+    display: flex;
+    text-align: center;
+}
+
+.haut1, .haut3
+{
+    width: 10%;
+}
+
+.haut1
+{
+    background-color: red;
+}
+
+.haut2
+{
+    background-color: green;
+    width:80%;
+}
+
+.haut3
+{
+    background-color: blue;
+}
+
+.milieu
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.milieu1
+{
+    background-color: grey;
+    min-height: 75px;
+}
+
+.milieu2
+{
+    background-color: aqua;
+    height: 200px;
+}
+
+.milieu21
+{
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+
+.milieu3
+{
+    background-color: aquamarine;
+    height: 200px;
 }
