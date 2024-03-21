@@ -3,14 +3,14 @@
 
 <head>
 <meta charset="utf-8">
-
+<link href="style.css" rel="stylesheet">
 <title>Topic du jour</title>
 
 </head>
 
 <header>
-    <link href="style.css" rel="stylesheet">
 
+<!-- début nav bar -->
     <div class="haut">
         <div class="haut1">
             <img src="img/" alt="logo">
@@ -23,18 +23,19 @@
             <button>sign up</button>
         </div>
     </div>
+<!-- fin nav bar -->
 </header>
 
 <body>
-    <div class="milieu">
-        <div class="milieu1">
+    <div class="maincontent_topic">
+        <div class="topicname">
             <h2>Titre topic du jour</h2>
         </div>
-        <div class="milieu2">
-            <div class="milieu21">
-                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="topiccontent">
+            <div class="topictext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="milieu22">
+            <div class="ratingtopic">
                 0
                 <input type="range" list="tick">
                 <datalist id="tick">
@@ -49,11 +50,12 @@
                     <option value="80"></option>
                     <option value="90"></option>
                     <option value="100"></option>
-                    </datalist>
+                </datalist>
                 10
             </div>  
         </div>
-        <div class="milieu3">
+
+        <div class="commentspace">
             commentaires
             <form action="/form/submit" method="post">
                 <input class="topic" type="text" placeholder="Commentaire"></textarea>

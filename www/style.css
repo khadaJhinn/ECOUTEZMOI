@@ -1,69 +1,149 @@
+/* debut : multi pages */
 .topic { 
     height: 200px;
     width: 1000px;
 }
 
-html
-{
+html, body {
+    display: flex; /*flexbox arrives*/
+    flex-direction: column; /* axe principal vertical*/
+    height: auto;
+    width: auto;
     background-color: beige;
 }
 
-.haut
-{
-    display: flex;
+/*end all pages*/
+
+/*début nav bar pour index + topic ofd*/
+.haut {
+    display: flex; /*flexbox arrives*/
+    flex-direction: row;  /*axe secondaire horizontal*/
+    border: 2px solid slateblue;
+    justify-content: space-around;  /*espacement entre les éléments*/
     text-align: center;
 }
 
-.haut1, .haut3
-{
-    width: 10%;
+.haut1, .haut3 {
+    width: 15%;
 }
 
-.haut1
-{
+.haut1 {
     background-color: red;
 }
 
-.haut2
-{
+.haut2 {
     background-color: green;
-    width:80%;
+    width:60%;
 }
 
-.haut3
-{
+.haut3 {
     background-color: blue;
 }
+/* fin navabar index + topic ofd */
 
-.milieu
-{
-    display: flex;
-    flex-direction: column;
+
+/* debut index.html page */
+.landing {
+    display: flex; /*flexbox arrives*/
+    flex-direction: row; /*permet de mettre les div côte à côte*/
+    align-items: stretch;
+    background-color: blueviolet;
+    border:2px solid rgb(175, 92, 92);
     text-align: center;
     margin-top: 10px;
+    padding: 15px;
 }
 
-.milieu1
+.landing > * {
+    flex-grow: 1;
+}
+
+.top10users {
+    border: 2px solid coral;
+    background-color: grey;
+    width: 15%;
+}
+
+.maincontent_landing {
+    flex-grow: 2;
+    border: 2px solid coral;
+    background-color: aqua;
+    width: 60%;
+}
+
+.linktopoft {
+    background-color: rgb(112, 154, 190);
+    border: 2px solid coral;
+}
+
+.linkoldtopics {
+    background-color: rgb(62, 91, 117);
+    border: 2px solid coral;
+}
+.top10top {
+    background-color: aquamarine;
+    border: 2px solid coral;
+    width: 15%;
+   
+}
+
+.suggestion {
+
+}
+/* end index.html page */
+
+
+/*debut topic_du_jour.html page*/
+
+.maincontent_topic {
+    display: flex; /*flexbox arrives*/
+    flex-direction: column; /*permet de mettre les div côte à côte*/
+    background-color: blueviolet;
+    border:2px solid rgb(92, 167, 6);
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+
+}
+
+.topicname
 {
+    border: 2px solid coral;
     background-color: grey;
     min-height: 75px;
 }
 
-.milieu2
+.topiccontent
 {
+    
+    border: 2px solid coral;
     background-color: aqua;
+    flex-grow: 2;
     height: 200px;
 }
 
-.milieu21
+.topictext
 {
+    background-color: rgb(112, 154, 190);
+    border: 2px solid coral;
     height: 70%;
     width: 50%;
     margin: auto;
 }
 
-.milieu3
+
+.ratingtopic {
+    background-color: rgb(62, 91, 117);
+    border: 2px solid rgb(110, 40, 14);
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+.commentspace
 {
     background-color: aquamarine;
+    border: 2px solid coral;
     height: 200px;
 }
+
+/*end topic_du_jour.html page*/
