@@ -5,22 +5,26 @@
 }
 
 html, body {
-    display: flex; /*flexbox arrives*/
-    flex-direction: column; /* axe principal vertical*/
-    height: auto;
-    width: auto;
     background-color: beige;
 }
 
+footer {
+    height: 10%; 
+    margin-top: 30px;
+    text-align: center;
+    color: #000;
+  }
 /*end all pages*/
+
 
 /*début nav bar pour index + topic ofd*/
 .haut {
     display: flex; /*flexbox arrives*/
-    flex-direction: row;  /*axe secondaire horizontal*/
+    flex-direction: row;  /*axe horizontal*/
     border: 2px solid slateblue;
     justify-content: space-around;  /*espacement entre les éléments*/
     text-align: center;
+   
 }
 
 .haut1, .haut3 {
@@ -46,7 +50,6 @@ html, body {
 .landing {
     display: flex; /*flexbox arrives*/
     flex-direction: row; /*permet de mettre les div côte à côte*/
-    align-items: stretch;
     background-color: blueviolet;
     border:2px solid rgb(175, 92, 92);
     text-align: center;
@@ -54,9 +57,6 @@ html, body {
     padding: 15px;
 }
 
-.landing > * {
-    flex-grow: 1;
-}
 
 .top10users {
     border: 2px solid coral;
@@ -69,6 +69,7 @@ html, body {
     border: 2px solid coral;
     background-color: aqua;
     width: 60%;
+    padding: 15px;
 }
 
 .linktopoft {
@@ -87,9 +88,7 @@ html, body {
    
 }
 
-.suggestion {
 
-}
 /* end index.html page */
 
 
