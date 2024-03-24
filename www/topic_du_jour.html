@@ -60,16 +60,21 @@
                 </datalist>
                 10
             </div>  
+            <div class="commentspace">
+                <fieldset>
+                    <form action="/form/submit" method="post">
+                        <label for="message"></label>
+                            <legend> Votre commentaire</legend>
+                                <textarea id="message" name="message" required cols="20" rows="10">
+                                    Votre commentaire ici
+                                </textarea> <br />
+                                <input type="submit" name="submitInfo" value="Submit">
+                    </form>
+                </fieldset>
+            </div>
         </div>
 
-        <div class="commentspace">
-            commentaires
-            <form action="/form/submit" method="post">
-                <input class="topic" type="text" placeholder="Commentaire"></textarea>
-                <br>
-                <input type="submit" name="submitInfo" value="Submit">
-              </form>
-        </div>
+        
     </div>
     
     <footer>

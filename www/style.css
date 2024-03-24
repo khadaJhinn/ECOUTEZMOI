@@ -1,16 +1,20 @@
 /* debut : multi pages */
+html {
+    background-color: beige;
+    
+}
+
+body {
+    min-height: 100%;
+}
+
 .topic { 
     height: 150px;
     width: 850px;
 }
 
-html, body {
-    background-color: beige;
-}
-
 footer {
     height: 10%; 
-    margin-top: 30px;
     text-align: center;
     color: #000;
   }
@@ -53,10 +57,11 @@ footer {
     background-color: blueviolet;
     border:2px solid rgb(175, 92, 92);
     text-align: center;
+    min-height: 85vh;
     margin-top: 10px;
     padding: 15px;
-}
 
+}
 
 .top10users {
     border: 2px solid coral;
@@ -65,19 +70,23 @@ footer {
 }
 
 .maincontent_landing {
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
     border: 2px solid coral;
     background-color: aqua;
-    width: 60%;
+    width: 100%;
     padding: 15px;
 }
 
 .linktopoft {
+    height: 60%;
     background-color: rgb(112, 154, 190);
     border: 2px solid coral;
 }
 
 .linkoldtopics {
+    height: 100%;
     background-color: rgb(62, 91, 117);
     border: 2px solid coral;
 }
@@ -100,49 +109,43 @@ footer {
     background-color: blueviolet;
     border:2px solid rgb(92, 167, 6);
     text-align: center;
+    height: 85vh; /*toute la plage en hauteur*/
     margin-top: 10px;
     padding: 15px;
-
 }
 
-.topicname
-{
+.topicname {
     border: 2px solid coral;
     background-color: grey;
-    min-height: 75px;
+    min-height: 30px;
 }
 
-.topiccontent
-{
-    
+.topiccontent {
     border: 2px solid coral;
     background-color: aqua;
-    flex-grow: 2;
-    height: 200px;
 }
 
-.topictext
-{
+.topictext {
     background-color: rgb(112, 154, 190);
     border: 2px solid coral;
-    height: 70%;
-    width: 50%;
-    margin: auto;
+    width: 70%;
 }
-
 
 .ratingtopic {
     background-color: rgb(62, 91, 117);
     border: 2px solid rgb(110, 40, 14);
-    height: 70%;
-    width: 50%;
-    margin: auto;
+    height: 8%;
 }
-.commentspace
-{
+
+.commentspace {
     background-color: aquamarine;
     border: 2px solid coral;
     height: 200px;
+    width: 70%;
+}
+
+textarea {
+    width: 100%;
 }
 
 /*end topic_du_jour.html page*/
