@@ -1,11 +1,7 @@
 /* debut : multi pages */
 html {
-    background-color: beige;
+    background-color: #E0E4CC;
     
-}
-
-body {
-    min-height: 100%;
 }
 
 .topic { 
@@ -26,7 +22,7 @@ footer {
     display: flex; /*flexbox arrives*/
     flex-direction: row;  /*axe horizontal*/
     border: 2px solid slateblue;
-    justify-content: space-around;  /*espacement entre les éléments*/
+    justify-content: space-evenly;  /*espacement entre les éléments*/
     text-align: center;
    
 }
@@ -54,7 +50,6 @@ footer {
 .landing {
     display: flex; /*flexbox arrives*/
     flex-direction: row; /*permet de mettre les div côte à côte*/
-    background-color: blueviolet;
     border:2px solid rgb(175, 92, 92);
     text-align: center;
     min-height: 85vh;
@@ -104,9 +99,6 @@ footer {
 /*debut topic_du_jour.html page*/
 
 .maincontent_topic {
-    display: flex; /*flexbox arrives*/
-    flex-direction: column; /*permet de mettre les div côte à côte*/
-    background-color: blueviolet;
     border:2px solid rgb(92, 167, 6);
     text-align: center;
     height: 85vh; /*toute la plage en hauteur*/
@@ -114,15 +106,17 @@ footer {
     padding: 15px;
 }
 
-.topicname {
+/* .topicname {
     border: 2px solid coral;
     background-color: grey;
     min-height: 30px;
-}
+} J'ai déplacé le topixname dans en dans topic content sous forme <h2 /> */ 
 
 .topiccontent {
+
     border: 2px solid coral;
     background-color: aqua;
+    height: 100%;
 }
 
 .topictext {
