@@ -26,14 +26,11 @@
     </div>
 <!-- fin nav bar -->
 </header>
-
 <body>
     <div class="maincontent_topic">
-        <div class="topicname">
-            <h2>Titre topic du jour</h2>
-        </div>
         <div class="topiccontent">
             <div class="topictext">
+                <h2> Topic du jour</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation 
@@ -61,11 +58,22 @@
                 </datalist>
                 10
             </div>  
-        </div>
-
-        <div class="commentspace">
-            <h2>Espace commentaires</h2>
-
+            <div class="commentspace">
+                <div class="forms">
+                    <fieldset>
+                        <form action="/form/submit" method="post">
+                            <label for="message"></label>
+                            <legend> Votre commentaire</legend>
+                            <textarea id="message" name="message" required cols="20" rows="10">
+                            </textarea> <br />
+                            <input type="submit" name="submitInfo" value="Submit">
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="comday">
+                ESPACE COMMENTAIRES DES UTILISATEURS
+            </div>
         </div>
     </div>
     

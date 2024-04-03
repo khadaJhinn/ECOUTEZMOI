@@ -1,16 +1,16 @@
 /* debut : multi pages */
+html {
+    background-color: #E0E4CC;
+    
+}
+
 .topic { 
     height: 150px;
     width: 850px;
 }
 
-html, body {
-    background-color: beige;
-}
-
 footer {
     height: 10%; 
-    margin-top: 30px;
     text-align: center;
     color: #000;
   }
@@ -22,7 +22,7 @@ footer {
     display: flex; /*flexbox arrives*/
     flex-direction: row;  /*axe horizontal*/
     border: 2px solid slateblue;
-    justify-content: space-around;  /*espacement entre les éléments*/
+    justify-content: space-evenly;  /*espacement entre les éléments*/
     text-align: center;
    
 }
@@ -50,13 +50,13 @@ footer {
 .landing {
     display: flex; /*flexbox arrives*/
     flex-direction: row; /*permet de mettre les div côte à côte*/
-    background-color: blueviolet;
     border:2px solid rgb(175, 92, 92);
     text-align: center;
+    min-height: 85vh;
     margin-top: 10px;
     padding: 15px;
-}
 
+}
 
 .top10users {
     border: 2px solid coral;
@@ -65,22 +65,27 @@ footer {
 }
 
 .maincontent_landing {
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
     border: 2px solid coral;
     background-color: aqua;
-    width: 60%;
+    width: 100%;
     padding: 15px;
 }
 
 .linktopoft {
+    height: 60%;
     background-color: rgb(112, 154, 190);
     border: 2px solid coral;
 }
 
 .linkoldtopics {
+    height: 100%;
     background-color: rgb(62, 91, 117);
     border: 2px solid coral;
 }
+
 .top10top {
     background-color: aquamarine;
     border: 2px solid coral;
@@ -95,41 +100,44 @@ footer {
 /*debut topic_du_jour.html page*/
 
 .maincontent_topic {
-    display: flex; /*flexbox arrives*/
-    flex-direction: column; /*permet de mettre les div côte à côte*/
-    background-color: blueviolet;
+    display: flex;
     border:2px solid rgb(92, 167, 6);
     text-align: center;
+    height: 85vh; /*toute la plage en hauteur*/
     margin-top: 10px;
     padding: 15px;
-
+    width: 100%;
+    
 }
 
-.topicname
-{
+/* .topicname {
     border: 2px solid coral;
     background-color: grey;
-    min-height: 75px;
-}
+    min-height: 30px;
+} J'ai déplacé le topicname dans en dans topic content sous forme <h2 /> */ 
 
-.topiccontent
-{
-    
+.topiccontent {
     border: 2px solid coral;
     background-color: aqua;
-    flex-grow: 2;
-    height: 200px;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
 }
 
-.topictext
-{
+.topictext,.commentspace, .comday {
+    width: 80%; 
+    height: 100%;
+}
+
+.topictext {
     background-color: rgb(112, 154, 190);
     border: 2px solid coral;
-    height: 70%;
-    width: 50%;
-    margin: auto;
+    width: 80%; 
+    height: 40%;
 }
-
 
 .ratingtopic {
     background-color: rgb(62, 91, 117);
@@ -144,4 +152,25 @@ footer {
     border: 2px solid coral;
 }
 
+.comday {
+    border: 2px solid rgb(110, 40, 14);
+}
+
+.commentspace {
+    background-color: aquamarine;
+    height: 250px;
+    width: 80%;
+}
+
+textarea {
+    width: 50%;
+    height: 40%;
+}
+
+
+.commentspace {
+    background-color: aquamarine;
+    height: 250px;
+    width: 80
+}
 /*end topic_du_jour.html page*/
