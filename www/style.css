@@ -1,7 +1,7 @@
 /* debut : multi pages */
 html {
-    background-color: #E0E4CC;
-    
+    background-color: #2D2D2D;
+    color: #FFF;
 }
 
 .topic { 
@@ -12,7 +12,6 @@ html {
 footer {
     height: 10%; 
     text-align: center;
-    color: #000;
     margin-top: 20px;
   }
 /*end all pages*/
@@ -97,20 +96,17 @@ footer {
     text-align: center;
     min-height: 85vh;
     margin-top: 10px;
-
 }
 
 .top10users {
-    border: 2px solid coral;
-    border-radius: 15px;
-    background-color: grey;
+    background-color: #237E8C;
+    border-radius: 15px 0px 0px 15px;
     width: 20%;
 }
 
 .top10top {
-    background-color: aquamarine;
-    border-radius: 15px;
-    border: 2px solid coral;
+    background-color: #237E8C;
+    border-radius: 0px 15px 15px 0px;
     width: 20%;
 }
 
@@ -119,21 +115,36 @@ footer {
     flex-direction: column;
     flex-grow: 2;
     width: 100%;
+    border-radius: 15px;
 }
 
 .linktopoft {
     height: 60%;
     background-color: rgb(112, 154, 190);
-    border: 2px solid coral;
 }
 
 .linkoldtopics {
     height: 100%;
     background-color: rgb(62, 91, 117);
-    border: 2px solid coral;
 }
 
+.suggest {
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
+.suggest:hover{
+    background-color: #2D2D2D;
+}
 
 /* end index.html page */
 
@@ -146,24 +157,18 @@ footer {
     height: 85vh; /*toute la plage en hauteur*/
     margin-top: 10px;
     width: 100%;
+    color: #FFF;
     
 }
 
-/* .topicname {
-    border: 2px solid coral;
-    background-color: grey;
-    min-height: 30px;
-} J'ai déplacé le topicname dans en dans topic content sous forme <h2 /> */ 
-
 .topiccontent {
-    border: 2px solid coral;
-    background-color: aqua;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     height: 100%;
     width: 100%; 
-    display: flex;
     flex-direction: column; 
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+
 }
 
 .topictext,.commentspace, .comday {
@@ -173,31 +178,20 @@ footer {
 
 .topictext {
     background-color: rgb(112, 154, 190);
-    border: 2px solid coral;
     width: 80%; 
     height: 40%;
 }
 
 .ratingtopic {
     background-color: rgb(62, 91, 117);
-    border: 2px solid rgb(110, 40, 14);
     width: 80%;
     height: 5%;
 }
 
-.comday {
-    border: 2px solid rgb(110, 40, 14);
-}
 
 .commentspace {
     background-color: aquamarine;
     height: 250px;
-    width: 80%;
-}
-
-.Oldcommentspace {
-    background-color: aquamarine;
-    height: 100%;
     width: 80%;
 }
 
@@ -206,10 +200,22 @@ textarea {
     height: 40%;
 }
 
-
 .commentspace {
-    background-color: aquamarine;
+    background-color: rgb(31, 82, 65);
     height: 250px;
     width: 80
 }
+
+.comday {
+    background-color: rgb(46, 124, 127);
+    height: 100%;
+    width: 80%;
+}
 /*end topic_du_jour.html page*/
+
+/* topic archivé */
+.oldcommentspace{
+    background-color: rgb(46, 124, 127);
+    height: 100%;
+    width: 80%;
+}
