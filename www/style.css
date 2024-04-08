@@ -22,6 +22,7 @@ footer {
     display: flex; /*flexbox arrives*/
     flex-direction: row;  /*axe horizontal*/
     border: 2px solid slateblue;
+    background-color: #FD8B32;
     justify-content: space-evenly;  /*espacement entre les éléments*/
     text-align: center;
    
@@ -60,7 +61,7 @@ footer {
 
 .top10users {
     border: 2px solid coral;
-    background-color: grey;
+    background-color: #AEE4E1;
     width: 15%;
 }
 
@@ -69,25 +70,24 @@ footer {
     flex-direction: column;
     flex-grow: 2;
     border: 2px solid coral;
-    background-color: aqua;
+    background-color:#6DDAF0;
     width: 100%;
     padding: 15px;
 }
 
 .linktopoft {
     height: 60%;
-    background-color: rgb(112, 154, 190);
+    background-color: #6DDAF0;
     border: 2px solid coral;
 }
 
 .linkoldtopics {
     height: 100%;
-    background-color: rgb(62, 91, 117);
     border: 2px solid coral;
 }
 
 .top10top {
-    background-color: aquamarine;
+    background-color: #AEE4E1;
     border: 2px solid coral;
     width: 15%;
    
