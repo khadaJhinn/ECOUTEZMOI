@@ -18,32 +18,74 @@ footer {
 
 
 /*début nav bar pour index + topic ofd*/
-.haut {
-    display: flex; /*flexbox arrives*/
-    flex-direction: row;  /*axe horizontal*/
-    border: 2px solid slateblue;
-    background-color: #FD8B32;
-    justify-content: space-evenly;  /*espacement entre les éléments*/
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navbar-logo {
+    margin-right: auto;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.navbar-center {
     text-align: center;
-   
+    flex-grow: 1;
 }
 
-.haut1, .haut3 {
-    width: 15%;
+.site-title {
+    color: white;
+    margin: 0;
 }
 
-.haut1 {
-    background-color: red;
+.navbar-links {
+    display: flex;
 }
 
-.haut2 {
-    background-color: green;
-    width:60%;
+.navbar-links a {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 4px ;
 }
 
-.haut3 {
-    background-color: blue;
+.navbar-links a:hover {
+    background-color: #278d9d;
+    color: black;
 }
+
+.navbar-right {
+    margin-left: auto;
+}
+
+.signup-btn, .signin-btn {
+    background-color: #278d9d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-btn:hover, .signin-btn:hover {
+    background-color: #63bae3;
+}
+
 /* fin navabar index + topic ofd */
 
 
@@ -61,7 +103,7 @@ footer {
 
 .top10users {
     border: 2px solid coral;
-    background-color: #AEE4E1;
+    background-color: grey;
     width: 15%;
 }
 
@@ -70,24 +112,25 @@ footer {
     flex-direction: column;
     flex-grow: 2;
     border: 2px solid coral;
-    background-color:#6DDAF0;
+    background-color: aqua;
     width: 100%;
     padding: 15px;
 }
 
 .linktopoft {
     height: 60%;
-    background-color: #6DDAF0;
+    background-color: rgb(112, 154, 190);
     border: 2px solid coral;
 }
 
 .linkoldtopics {
     height: 100%;
+    background-color: rgb(62, 91, 117);
     border: 2px solid coral;
 }
 
 .top10top {
-    background-color: #AEE4E1;
+    background-color: aquamarine;
     border: 2px solid coral;
     width: 15%;
    
@@ -142,14 +185,8 @@ footer {
 .ratingtopic {
     background-color: rgb(62, 91, 117);
     border: 2px solid rgb(110, 40, 14);
-    height: 70%;
-    width: 50%;
-    margin: auto;
-}
-.commentspace
-{
-    background-color: aquamarine;
-    border: 2px solid coral;
+    width: 80%;
+    height: 5%;
 }
 
 .comday {
