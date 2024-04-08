@@ -13,6 +13,7 @@ footer {
     height: 10%; 
     text-align: center;
     color: #000;
+    margin-top: 20px;
   }
 /*end all pages*/
 
@@ -20,10 +21,11 @@ footer {
 /*début nav bar pour index + topic ofd*/
 .navbar {
     background-color: #333;
-    overflow: hidden;
     display: flex;
     align-items: center;
     border-radius: 5px;
+    height: 90px;
+    overflow:hidden;
 }
 
 .navbar-logo {
@@ -43,7 +45,6 @@ footer {
 
 .site-title {
     color: white;
-    margin: 0;
 }
 
 .navbar-links {
@@ -93,28 +94,31 @@ footer {
 .landing {
     display: flex; /*flexbox arrives*/
     flex-direction: row; /*permet de mettre les div côte à côte*/
-    border:2px solid rgb(175, 92, 92);
     text-align: center;
     min-height: 85vh;
     margin-top: 10px;
-    padding: 15px;
 
 }
 
 .top10users {
     border: 2px solid coral;
+    border-radius: 15px;
     background-color: grey;
-    width: 15%;
+    width: 20%;
+}
+
+.top10top {
+    background-color: aquamarine;
+    border-radius: 15px;
+    border: 2px solid coral;
+    width: 20%;
 }
 
 .maincontent_landing {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    border: 2px solid coral;
-    background-color: aqua;
     width: 100%;
-    padding: 15px;
 }
 
 .linktopoft {
@@ -129,12 +133,6 @@ footer {
     border: 2px solid coral;
 }
 
-.top10top {
-    background-color: aquamarine;
-    border: 2px solid coral;
-    width: 15%;
-   
-}
 
 
 /* end index.html page */
@@ -144,11 +142,9 @@ footer {
 
 .maincontent_topic {
     display: flex;
-    border:2px solid rgb(92, 167, 6);
     text-align: center;
     height: 85vh; /*toute la plage en hauteur*/
     margin-top: 10px;
-    padding: 15px;
     width: 100%;
     
 }
@@ -196,6 +192,12 @@ footer {
 .commentspace {
     background-color: aquamarine;
     height: 250px;
+    width: 80%;
+}
+
+.Oldcommentspace {
+    background-color: aquamarine;
+    height: 100%;
     width: 80%;
 }
 
