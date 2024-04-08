@@ -142,8 +142,14 @@ footer {
 .ratingtopic {
     background-color: rgb(62, 91, 117);
     border: 2px solid rgb(110, 40, 14);
-    width: 80%;
-    height: 5%;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+.commentspace
+{
+    background-color: aquamarine;
+    border: 2px solid coral;
 }
 
 .comday {
