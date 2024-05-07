@@ -1,8 +1,9 @@
 Le projet s'articule autour d'un site web type forum comprenant de multiples fonctionnalités :
 
-Tous les jours un topic est proposé sur lequel réagir
+Toutes les semaines un topic sur un sujet désagréable est proposé afin d'y réagir.
 Tu peux réagir et proposer un nouveau topic tous les jours 
-Chaque jour a 8h un topic de la BDD est tiré au hasard pour qu'il devienne le topic du jour
+Il y aura un topic par semaine tiré aléatoirement et affiché depuis la base de données hébergée sur un serveur distant. 
+Les utilisateurs du site ont la possibilité de réagir aux topics grâce à des commentaires, des systèmes d'upvote et downvotes. 
 
 
 - Une BDD user pour stocker la paire identifiant:motdepasse des utilisateurs
