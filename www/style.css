@@ -32,12 +32,12 @@ header {
     border-radius: 5px;
     height: 125px;
     width: 65%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .logocase {
     padding: 10px;
-    width: 33%; 
+    width: 20%; 
 }
 
 .logo {

@@ -1,21 +1,21 @@
 [
     {
         "id": 1 , 
-        "nom": "Je peux pas croire à quel point c'est toujours la galère d'attendre à la machine à café du campus Eductive ! Y a toujours une queue interminable, et quand t'arrives enfin à ton tour, y a plus de gobelets ou la machine est en panne. C'est juste frustrant à un point, vous en pensez quoi ?" 
+        "topic": "Je peux pas croire à quel point c'est toujours la galère d'attendre à la machine à café du campus Eductive ! Y a toujours une queue interminable, et quand t'arrives enfin à ton tour, y a plus de gobelets ou la machine est en panne. C'est juste frustrant à un point, vous en pensez quoi ?" 
     },
     {
         "id": 2 , 
-        "nom": "Je suis à bout avec ces foutues mises à jour automatiques sur mon téléphone ! À chaque fois que je veux utiliser mon téléphone, je me retrouve bloqué pendant des plombes parce qu'il décide de faire une put*** de mise à jour. C'est juste insupportable, vous en pensez quoi ?"  
+        "topic": "Je suis à bout avec ces foutues mises à jour automatiques sur mon téléphone ! À chaque fois que je veux utiliser mon téléphone, je me retrouve bloqué pendant des plombes parce qu'il décide de faire une put*** de mise à jour. C'est juste insupportable, vous en pensez quoi ?"  
     },    {
         "id": 3 , 
-        "nom": "Je peux plus supporter ces voisins bruyants qui font la fête jusqu'à pas d'heure tous les weekends ! C'est juste impossible de dormir paisiblement avec tout ce vacarme. J'ai l'impression d'être le seul à respecter le sommeil des autres ici, vous en pensez quoi ?"
+        "topic": "Je peux plus supporter ces voisins bruyants qui font la fête jusqu'à pas d'heure tous les weekends ! C'est juste impossible de dormir paisiblement avec tout ce vacarme. J'ai l'impression d'être le seul à respecter le sommeil des autres ici, vous en pensez quoi ?"
     },    {
         "id": 4 , 
-        "nom": "Je suis franchement énervé par le retard dans le remboursement de mon opco ! Ça fait des semaines que j'ai envoyé tous les documents nécessaires et toujours rien. C'est toujours la même galère avec eux, et pendant ce temps-là, je me retrouve à découvert. C'est juste inacceptable, vous en pensez quoi ?"
+        "topic": "Je suis franchement énervé par le retard dans le remboursement de mon opco ! Ça fait des semaines que j'ai envoyé tous les documents nécessaires et toujours rien. C'est toujours la même galère avec eux, et pendant ce temps-là, je me retrouve à découvert. C'est juste inacceptable, vous en pensez quoi ?"
     },
     {
         "id": 5 , 
-        "nom": "J'en ai vraiment marre de ces gens qui parlent super fort en public comme s'ils étaient seuls au monde ! Y a rien de plus agaçant que d'essayer de se concentrer ou de passer un moment tranquille, et d'être constamment interrompu par leurs voix stridentes. Est-ce que c'est si difficile de respecter les autres ? Qu'en pensez-vous ?"  
+        "topic": "J'en ai vraiment marre de ces gens qui parlent super fort en public comme s'ils étaient seuls au monde ! Y a rien de plus agaçant que d'essayer de se concentrer ou de passer un moment tranquille, et d'être constamment interrompu par leurs voix stridentes. Est-ce que c'est si difficile de respecter les autres ? Qu'en pensez-vous ?"  
     }
 
 
